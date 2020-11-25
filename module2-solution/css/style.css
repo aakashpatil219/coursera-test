@@ -14,7 +14,7 @@ p {
   height: 165px;
   margin-right: 10px;
   padding: 40px 10px 5px 10px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 
@@ -33,7 +33,6 @@ p {
   width: 120px;
   padding: 10px;
   text-align: center;
-  overflow: hidden;
 }
 #p2 {
   background-color:#C14543 ;
@@ -46,8 +45,6 @@ p {
   width: 120px;
   padding: 10px;
   text-align: center;
-  overflow: hidden;
-
 }
 #p3 {
  background-color: #E5D198;
@@ -59,16 +56,12 @@ p {
   width: 120px;
   padding: 10px;
   text-align: center;
-  overflow: hidden;
-
 }
-
 
 .row {
   width: 100%;
 
 }
-
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
